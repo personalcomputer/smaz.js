@@ -1,0 +1,44 @@
+{
+  "name": "smaz",
+  "description": "Compression for very small strings",
+  "keywords": [
+    "strings",
+    "compression",
+    "decompression"
+  ],
+  "version": "1.0.0",
+  "author": "Salvatore Sanfilippo <antirez@gmail.com> (http://invece.org)",
+  "contributors": [
+    "John Miller <john@johngm.com> (http://johngm.com)",
+    "Marcus Ekwall <marcus.ekwall@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/personalcomputer/smaz.js.git"
+  },
+  "bugs": {
+    "url": "http://github.com/personalcomputer/smaz.js/issues/"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "index",
+  "test": "make test",
+  "engines": {
+    "node": ">= 0.4.x < 0.7.0",
+    "npm": "1"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "mocha": "1.0.x",
+    "should": "0.6.x"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/personalcomputer/smaz.js/blob/master/COPYING"
+    }
+  ]
+}
