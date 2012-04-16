@@ -5,15 +5,34 @@ See http://github.com/antirez/smaz for information on smaz and the algorithm its
 
 **Live Demo:** http://personalcomputer.github.com/smaz.js/
 
-USAGE
------
+## Usage
 
-```var c = smaz.compress("string");
-var u = smaz.decompress(c);```
+### In browser:
 
-Compressed binary data is stored using Javascript ArrayBuffers.
+```javascript
+var c = smaz.compress("string");
+var u = smaz.decompress(c);
+```
 
-CREDITS
--------
+### In node.js:
+
+#### Installation
+
+```bash
+$ npm install smaz
+```
+
+#### How to use
+
+```
+var smaz = require("smaz");
+var c = smaz.compress("string");
+var u = smaz.decompress(c);
+```
+
+Compressed binary data is stored using JavaScript ArrayBuffers.
+
+CREDITS AND LICENSE
+-------------------
 
 Small was written by Salvatore Sanfilippo and is released under the BSD license. Check the COPYING file for more information. smaz.js was written by personalcomputer and is a derivative work also under the BSD license.
