@@ -6,7 +6,7 @@
     "compression",
     "decompression"
   ],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Salvatore Sanfilippo <antirez@gmail.com> (http://invece.org)",
   "contributors": [
     "John Miller <john@johngm.com> (http://johngm.com)",
