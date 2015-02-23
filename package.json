@@ -25,15 +25,14 @@
   "main": "index",
   "test": "make test",
   "engines": {
-    "node": ">= 0.4.x < 0.7.0",
-    "npm": "1"
+    "node": ">= 0.10.x < 0.13.0"
   },
   "dependencies": {
 
   },
   "devDependencies": {
-    "mocha": "1.0.x",
-    "should": "0.6.x"
+    "mocha": "^2.1.0",
+    "should": "^5.0.0"
   },
   "licenses": [
     {
