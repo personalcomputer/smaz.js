@@ -1,3 +1,17 @@
+## ⚠️ **Final Update:** Hi folks. I created this library over 10 years ago in 2012 but I do not maintain it. This repository is archived. For a maintained version of smaz compression in Javascript, please look instead to the version provided by @remusao instead in npm as https://www.npmjs.com/package/@remusao/smaz. Thank you. 
+
+
+
+-----
+-----
+-----
+-----
+-----
+-----
+
+
+
+
 SMAZ.js
 -------
 
